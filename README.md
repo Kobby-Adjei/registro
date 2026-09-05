@@ -1,6 +1,6 @@
 # Registro
 
-Registro is a semester software-engineering project for COSC 482W. The product is an event discovery and management platform where organizers can create and manage events, and attendees can discover, register for, and track events.
+Registro is an event discovery and management platform built to make finding, creating, and managing events simple. Organizers can publish events, manage registrations, and track attendance from one place, while attendees can discover events, register, and keep track of what’s coming up.
 
 ## MVP
 
@@ -41,19 +41,19 @@ registro/
 └── README.md
 ```
 
-## Development Status
+## Status
 
-**Phase:** Product definition / project setup
+**Phase:** Product definition and technical setup
 
-The technical stack and detailed architecture will be selected by the team before implementation begins.
+The team is currently finalizing product scope, technical stack, and application architecture before implementation begins.
 
 ## Team Workflow
 
-- `main` should remain stable.
-- Each task should be developed on its own branch.
-- Open a pull request before merging work into `main`.
+- Keep `main` stable.
+- Build each task on its own branch.
+- Open a pull request before merging into `main`.
 - Keep pull requests focused on one feature or fix.
-- Use GitHub Issues to track features, bugs, and technical tasks.
+- Use GitHub Issues to track features, bugs, and technical work.
 
 Recommended branch names:
 
@@ -63,15 +63,15 @@ Recommended branch names:
 - `fix/registration-validation`
 - `docs/database-design`
 
-## Initial Development Order
+## Roadmap
 
-1. Confirm product scope.
-2. Choose technical stack.
-3. Define database/data model.
-4. Define application architecture.
+1. Finalize product scope.
+2. Choose the technical stack.
+3. Define the data model.
+4. Define the application architecture.
 5. Build authentication.
 6. Build event creation and management.
 7. Build event discovery.
-8. Build registration workflow.
-9. Build organizer dashboard.
-10. Test and polish the complete user flow.
+8. Build registration workflows.
+9. Build the organizer dashboard.
+10. Test and polish the end-to-end experience.
